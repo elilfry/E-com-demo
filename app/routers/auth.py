@@ -9,11 +9,11 @@ from app.schemas.auth import UserOut, Signup
 router = APIRouter(tags=["Auth"], prefix="/auth")
 
 
-@router.post("/signup", status_code=status.HTTP_200_OK, response_model=UserOut)
-async def user_login(
-        user: Signup,
-        db: Session = Depends(get_db)):
-    return await AuthService.signup(db, user)
+# @router.post("/signup", status_code=status.HTTP_200_OK, response_model=UserOut)
+# async def user_login(
+#         user: Signup,
+#         db: Session = Depends(get_db)):
+#     return await AuthService.signup(db, user)
 
 
 @router.post("/login", status_code=status.HTTP_200_OK)
