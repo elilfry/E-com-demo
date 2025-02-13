@@ -3,7 +3,7 @@
 
 A simple Ecommerce API built with Fast API Framework
 
-## Table of Contents123456789012345678922345678912345678901234567890
+## Table of Contents1234567890123456789223456789123456789012345678901
 
 - [Ecommerce API with Fast API Framework](#ecommerce-api-with-fast-api-framework)
   - [Table of Contents](#table-of-contents)
